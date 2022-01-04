@@ -1179,9 +1179,9 @@ margin:0 auto;
 }
 
 @media screen and (max-width:320px){
-    .container{
+    /* .container{
         background:lightseagreen
-    }
+    } */
 
     ul {
         /* 取消ul預設的內縮及樣式 */
@@ -1291,22 +1291,52 @@ margin:0 auto;
         height: 30px;
        }
 
+
+    .nav{
+        height: 50px;
+        width: 500px;
+        
+    }
+
     .test2{
-        height: 950px;
-        width: 650px;
+        height: 970px;
+        width: 500px;
       
     }
 
     .test3{
         height: 950px;
-        width: 650px;
-      
+        width: 550px;
+      margin-left: 80px;
     }
 
     .test4{
         height: 1200px;
-        width: 650px;
+        width: 550px;
       
+    }
+
+    .nav1{
+        width: 320px;
+        margin-left: -50px;
+    }
+
+    .name{
+        width: 320px;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+
+    .rightg{
+        height: auto;
+        width:260px;
+        /* margin-left: 50px; */
+    }
+
+    .gevent{
+        height: auto;
+        width:260px;
+        /* margin-left: 50px; */
     }
 
     .w-img{    
@@ -1321,7 +1351,7 @@ margin:0 auto;
         justify-content: center;
         margin: -770px 0px 40px 150px;
         height: auto;
-        width: 40vw;
+        width: 150px;
         border-radius: 10px;
         position: absolute;
     }
@@ -1329,7 +1359,7 @@ margin:0 auto;
     .w-top-in{
         margin-left:10px;
         font-weight: bolder;
-        font-size:40px;
+        font-size:20px;
         font-family: normal;
         color: #653f1c;
     }
@@ -1337,21 +1367,21 @@ margin:0 auto;
     .w1{
         display: flex;
         height: auto;
-        width: 50vw;  
+        width: 250px;  
         margin: 30px 0px 0px 110px;
     }
     
     .w2{
         display: flex;
         height: auto;
-        width: 50vw;
+        width:250px;
         margin: 20px 0px 0px 110px;
     }
     
     .w3{
         display: flex;    
         height: auto;
-        width: 60vw;
+        width:320px;
         margin: 20px 0px 0px 70px;
     }
 
@@ -1368,12 +1398,20 @@ margin:0 auto;
     
     .g-top{
         height: auto;
-        width: 35vw;
-        margin: -170px 0px 600px 140px;
+        width: 150px;
+        margin: -170px 0px 600px 80px;
+    }
+
+    .g-top-in{
+        margin-left:10px;
+        font-weight: bolder;
+        font-size:20px;
+        font-family: normal;
+        color: #653f1c;
     }
         
     .g-word{
-        width: 500px;
+        width: 300px;
         height: 108px;
         margin: 50px 0px -10px 30px;
     }
@@ -1385,26 +1423,37 @@ margin:0 auto;
         color: black;
     }
 
+    .g1{
+        display: flex;
+        height: auto;
+        width: 150px; 
+    }
+
+    .g2{
+        display: flex;
+        height: auto;
+        width: 150px; 
+    }
 
     .r-top{
-        margin: 0px 0px 0px -350px;
+        margin: 0px 0px 0px -450px;
         height: auto;
-        width: 50vw;
+        width: 190px;
          
     }
     
     .r-top-in{
         margin-left:10px;
         font-weight: bolder;
-        font-size:40px;
+        font-size:20px;
         font-family: normal;
         color: #653f1c;
     }
             
     .r-word{
-        width: 400px;
+        width: 250px;
         height: 108px;
-        margin: 0px 0px 0px -250px;
+        margin: 0px 0px 0px -450px;
     }
     
     .r-word-in{
@@ -1414,13 +1463,35 @@ margin:0 auto;
         color: black;
     }
 
+    .r1{
+        display: flex;
+        height: auto;
+        width:230px;
+        margin-left: -30px;
+    }
+
+    .r2{
+        display: flex;
+        height: auto;
+        width:230px;
+        margin-left: -30px;
+    }
+    
     .picture{
-        width: 60vw;
+        width: 230px;
         height: auto;  
-        margin: -400px 0px 0px 50px;
+        margin: -400px 0px 0px 30px;
     }
 
     .cm{
-        margin: 80px 0px 0px 0px;
+        margin: 20px 0px 0px 110px;
+        width: 50px;
+        height: auto; 
     }
+
+    .ft{
+       margin-left: -110px;
+    }
+
+    
 }
